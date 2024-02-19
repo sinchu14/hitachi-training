@@ -1,0 +1,25 @@
+FROM ubuntu
+
+ENV APPTYPE=Backend
+
+WORKDIR /data
+
+# mkdir data 
+# cd /data
+
+COPY sample.log .
+
+CMD [ "/bin/sh" ]
+
+# CMD ["apt-get","install","vim","-y"]
+
+# apt-get install vim
+
+
+
+"sha256:1a102d1cac2bdae8a0160ac4365d4f8653e9d6da56c793a665d556ae07fb7f82",
+"sha256:04f7004132095bbf8674fdbf302dfadfcdc2c7445d29dab3d0f74dcca4283f42",
+"sha256:117a42cc04c54048c65eacc91c98841e16d12e21a7e874a3546fc399a25c0156"
+
+
+"sha256:1a102d1cac2bdae8a0160ac4365d4f8653e9d6da56c793a665d556ae07fb7f82"
