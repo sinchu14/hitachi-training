@@ -1,0 +1,30 @@
+ 1336  docker network ls
+ 1337  docker inspect hitachinetwork2
+ 1338  docker inspect bridge
+ 1340  docker ps
+ 1341  docker inspect f9
+ 1342  docker history f9
+ 1343  docker history ubuntu
+ 1344  docker images
+ 1345  docker history postgress
+ 1346  docker history postgres
+ 1350  docker run postgress uname -a
+ 1351  docker run postgres uname -a
+ 1352  docker run postgress bash
+ 1353  docker run postgres bash
+ 1354  docker run -it postgres /bin/sh
+ 1356  docker volume
+ 1357  docker volume ls
+ 1364  cd .docker/
+ 1452  cd docker-training/
+ 1455  cd workspace/personal/training/docker-training/
+ 1944  cd docker-training/
+ 1972  cd docker-training/
+ 1978  docker build -t textimage .
+ 1980  docker images
+ 1982  docker build -t textimage .
+ 1984  docker build -t testimage .
+ 1986  docker build -t testimage .
+ 1992  mv docker-training/ hitachi-devops-training/
+ 2011  git add docker-training/app docker-training/Dockerfile docker-training/Dockerfile2 docker-training/sample.log 
+ 2245  history | grep docker

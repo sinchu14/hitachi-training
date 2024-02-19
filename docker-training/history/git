@@ -1,0 +1,72 @@
+1998  git init
+ 1999  git branch -m main
+ 2002  cd .git/
+ 2006  git status
+ 2010  git status
+ 2011  git add docker-training/app docker-training/Dockerfile docker-training/Dockerfile2 docker-training/sample.log 
+ 2012  git status
+ 2014  git branch
+ 2015  git branch -a
+ 2019  cd .git/
+ 2027  git config --local user.name jiten
+ 2028  git config --local user.email jpalaparthi@gmail.com
+ 2030  cd .git/
+ 2096  git status
+ 2097  git commit -m "sample commit"
+ 2100  cd .git/
+ 2111  git branch -b master
+ 2112  git branch -m master
+ 2118  git branch -b main
+ 2119  git branch -m main
+ 2121  git log
+ 2122  git add dummy.txt 
+ 2123  git commit -m "add dummy file"
+ 2124  git log
+ 2125  git hash-object dummy.txt
+ 2128  git add dummy1.txt 
+ 2129  git commit -m "add dummu1.txt"
+ 2130  git log
+ 2132  cd .git/
+ 2138  git cat-file 8ce8b959fde7dcec42c39843d3ab6e9dcfa7b9
+ 2153  git hash-object ../../dummy.txt
+ 2180  git cat-file --help
+ 2181  git cat-file -p f9/8ce8b959fde7dcec42c39843d3ab6e9dcfa7b9
+ 2182  git cat-fie -p f2/cab3071457320e46872ca68b4910cd3fc6b34a
+ 2183  git cat-file -p f2/cab3071457320e46872ca68b4910cd3fc6b34a
+ 2187  git hash-object dummy.txt
+ 2188  git cat-file -p 0d4f1e31fdaa48e25b47b66b5b9a81884af37ef6
+ 2189  git hash-object dummy.txt
+ 2190  git hash-object dummy1.txt
+ 2191  git hash-object dummy2.txt
+ 2193  git hash-object dumm2.txt
+ 2194  git cat-file -p 0d4f1e31fdaa48e25b47b66b5b9a81884af37ef6
+ 2196  cd .git/
+ 2199  git log
+ 2203  git branch -b demo1
+ 2205  git branch demo1
+ 2206  git branch
+ 2207  git checkout demo1
+ 2208  git log
+ 2210  git code dummy3.txt
+ 2211  git add dummy3.txt 
+ 2212  git commit -m "add another dummy3 fie"
+ 2214  git log
+ 2215  git checkout main
+ 2217  git status
+ 2219  git log
+ 2220  git checkout demo1
+ 2221  git log
+ 2223  git checkout main
+ 2224  git remote add origin https://github.com/JitenPalaparthi/hitachi-training.git
+ 2225  git push -u origin main
+ 2227  cd .git/
+ 2230  git remote -d origin
+ 2231  git remote remove origin
+ 2232  git remote -v
+ 2234  git remote add origin git@github.com:JitenPalaparthi/hitachi-training.git
+ 2235  git push -u origin main
+ 2237  git rm dumm2.txt dummy.txt dummy1.txt 
+ 2238  git stash
+ 2240  git rm dumm2.txt dummy.txt dummy1.txt 
+ 2241  git commit -m "remove unnecessary files"
+ 2243  git push origin main
