@@ -1,0 +1,10 @@
+
+
+local repository --> 
+    multiple branches
+        each branch can have multiple commits
+
+remote repository 
+    multiple branches 
+        rach branch can have multiple commits
+
